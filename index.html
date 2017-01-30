@@ -52,7 +52,7 @@ its fat little body off the ground. The bee, of course, flies anyway because bee
   </tr>
     <tr>
     <td>Text Field</td>
-    <td><form><input type="text"></form></td>
+    <td><form><input type="text" id="words"></form></td>
   </tr>
     <tr>
     <td>Checkbox</td>
@@ -63,6 +63,8 @@ its fat little body off the ground. The bee, of course, flies anyway because bee
   <script>
     var button = document.getElementById("buttonOne");
     var onButtonClick = function(){
+      var inputs = document.getElementById("words").value;
+      var respond = "wow " + inputs;
       document.getElementById("buttonOne").innerHTML("omg thx 4 clickin' gurl");
     };
     button.addEventListener("click", onButtonClick);
