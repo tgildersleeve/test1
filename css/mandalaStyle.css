@@ -1,0 +1,20 @@
+.button{
+                position: absolute;
+                border: none;
+                width: 15px;
+                height: 15px;
+            }
+
+            #reset{
+                border: solid white 1px;
+                background-color: black;
+                color: white;
+                position: absolute;
+                left: 4%;
+            }
+
+            #mandala{
+                position: absolute;
+                top: 0%;
+                left: 0%;
+            }
